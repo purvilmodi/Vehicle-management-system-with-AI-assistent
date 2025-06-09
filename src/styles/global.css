@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode setup */
+:root {
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+
+  .dark body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+/* Theme transition */
+* {
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Ensure dark mode styles take precedence */
+.dark .dark\:bg-gray-800 {
+  background-color: rgb(31, 41, 55) !important;
+}
+
+.dark .dark\:bg-gray-900 {
+  background-color: rgb(17, 24, 39) !important;
+}
+
+.dark .dark\:text-white {
+  color: rgb(255, 255, 255) !important;
+}
+
+.dark .dark\:text-gray-300 {
+  color: rgb(209, 213, 219) !important;
+}
+
+/* Force light mode styles when not dark */
+.bg-white {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.text-gray-900 {
+  color: rgb(17, 24, 39) !important;
+} 
