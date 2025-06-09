@@ -85,5 +85,28 @@ JWT_SECRET=your-secret-key-here
 
 OPENAI_API_KEY=openai key 
 
+###Screenshot
+
+## Register page
+![Screenshot 2025-06-09 111216](https://github.com/user-attachments/assets/60d4526b-5df8-4a81-b1a0-499ff53e86ef)
+
+## Login page
+![Screenshot 2025-06-09 111529](https://github.com/user-attachments/assets/0fd6f09f-844c-452f-85c1-5ef6879ec20d)
+
+## vehicledeatils page
+![Screenshot 2025-06-09 111633](https://github.com/user-attachments/assets/c1181f34-c1c8-42f6-a04d-fef9459c35b7)
+
+## Addvehicle page
+![Screenshot 2025-06-09 111720](https://github.com/user-attachments/assets/c8da7ebc-e64d-483f-a8db-0cdb88136d3e)
+
+## showvehicle details page
+![Screenshot 2025-06-09 111813](https://github.com/user-attachments/assets/41538a35-e3ab-4848-8be7-a19dadb8157b)
+
+## AI assistant chatbot page
+![Screenshot 2025-06-09 111909](https://github.com/user-attachments/assets/cb46747a-4653-48c8-9fea-0bb5793677d0)
+
+
+
+
 
 
